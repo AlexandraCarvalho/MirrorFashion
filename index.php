@@ -10,6 +10,7 @@
         <link href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script" rel="stylesheet">
     </head>
     <body>
+    <?php include("cabecalho.php");?>
         <!--antes havia o header com cabeçalho aqui-->
         <div class="container destaque">
 
