@@ -41,7 +41,7 @@
             <fieldset class="tamanhos">
                 <legend>Escolha o tamanho:</legend>
                 <input type="range" min="36" max="46" step="2" name="tamanho" id="tamanho">
-                <output for="tamanho" name="valortamanho">00</output>
+                <output for="tamanho" name="valortamanho">38</output>
             </fieldset>
 
             <button class="comprar">Comprar</button>
