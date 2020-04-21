@@ -92,5 +92,6 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/produto.js"></script>
+    <?php include("rodape.php");?>
 </body>
 </html>
