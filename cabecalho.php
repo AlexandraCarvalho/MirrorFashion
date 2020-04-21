@@ -10,7 +10,7 @@
                 data-toggle="collapse" data-target="#navbarToggleExternalContent">
                     <span class="navbar-toggle-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Mirror Fashion</a>
+                <a class="navbar-brand" href="index.php">Mirror Fashion</a>
                 <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a href="sobre.php">Sobre</a></li>
