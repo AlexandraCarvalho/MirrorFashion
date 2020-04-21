@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/produto.css">
 </head>
 <body>
-    <?php include("cabecalho.php");?>
+    <?php
+    $cabecalho_title = "Produto da Mirro Fashion";
+     include("cabecalho.php");
+     ?>
     <!--conteúdo do página aqui!-->
     <div class="container">
     <div class="produto">
