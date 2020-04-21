@@ -20,5 +20,6 @@
             <dd><?= $_POST['tamanho'] ?></dd>
         </dl>
    
+        <button action="produto.php">Voltar</button>
 </body>
 </html>
