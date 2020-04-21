@@ -1,3 +1,4 @@
+        <title><?php print $cabecalho_title; ?></title>
 <header class="container">
             <h1><img src="img/logo.png" alt="Logo da Mirror Fashion"></h1>
 
