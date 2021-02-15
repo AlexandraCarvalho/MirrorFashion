@@ -9,30 +9,17 @@
     <link rel="stylesheet" href="css/produto.css">
 </head>
 <body>
-    <header class="container">
-        <h1><img src="img/logo.png" alt="Logo da Mirror Fashion"></h1>
-
-        <p class="sacola">
-            Nenhum item na sacola de compras
-        </p>
-
-        <nav class="menu-opcoes">
-            <ul>
-                <li><a href="#">Sua Conta</a></li>
-                <li><a href="#">Lista de Desejos</a></li>
-                <li><a href="#">Cartão Fidelidade</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#">Ajuda</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+    $cabecalho_title = "Produto da Mirro Fashion";
+     include("cabecalho.php");
+     ?>
     <!--conteúdo do página aqui!-->
     <div class="container">
     <div class="produto">
         <h1>Fuzzy Cardigan</h1>
         <p>por apenas R$ 129,90</p>
 
-        <form>
+        <form action="checkout.php" method="POST">
             <fieldset class="cores">
                 <legend>Escolha a cor:</legend>
 
@@ -54,7 +41,7 @@
             <fieldset class="tamanhos">
                 <legend>Escolha o tamanho:</legend>
                 <input type="range" min="36" max="46" step="2" name="tamanho" id="tamanho">
-                <output for="tamanho" name="valortamanho">00</output>
+                <output for="tamanho" name="valortamanho">38</output>
             </fieldset>
 
             <button class="comprar">Comprar</button>
@@ -96,17 +83,7 @@
             </table>
     </div>
 </div>
-    <footer>
-        <div class="container">
-            <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
-
-            <ul class="social">
-                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-                <li><a href="http://google.com/mirrorfashion">Google</a></li>
-            </ul>
-        </div>
-    </footer>
     <script type="text/javascript" src="js/produto.js"></script>
+    <?php include("rodape.php");?>
 </body>
 </html>
